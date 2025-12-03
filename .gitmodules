@@ -1,0 +1,9 @@
+[submodule "ros2_ws/src/erl1_sensors"]
+	path = ros2_ws/src/erl1_sensors
+	url = https://github.com/CarmineD8/erl1_sensors.git
+[submodule "ros2_ws/src/my_opencv"]
+	path = ros2_ws/src/my_opencv
+	url = https://github.com/CarmineD8/my_opencv.git
+[submodule "ros2_ws/src/ros2_navigation"]
+	path = ros2_ws/src/ros2_navigation
+	url = https://github.com/CarmineD8/ros2_navigation.git
