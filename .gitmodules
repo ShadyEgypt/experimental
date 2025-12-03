@@ -7,3 +7,6 @@
 [submodule "ros2_ws/src/ros2_navigation"]
 	path = ros2_ws/src/ros2_navigation
 	url = https://github.com/CarmineD8/ros2_navigation.git
+[submodule "ros2_ws/src/plansys_interface"]
+	path = ros2_ws/src/plansys_interface
+	url = https://github.com/CarmineD8/plansys_interface.git
