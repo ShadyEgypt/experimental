@@ -13,3 +13,12 @@
 [submodule "ros2_ws/src/ros_aruco_opencv"]
 	path = ros2_ws/src/ros_aruco_opencv
 	url = https://github.com/fictionlab/ros_aruco_opencv.git
+[submodule "ros2_ws/src/ros2-gazebo-aruco"]
+	path = ros2_ws/src/ros2-gazebo-aruco
+	url = https://github.com/SaxionMechatronics/ros2-gazebo-aruco.git
+[submodule "ros2_ws/src/erl1"]
+	path = ros2_ws/src/erl1
+	url = https://github.com/ShadyEgypt/erl1.git
+[submodule "ros2_ws/src/ex_assignment1"]
+	path = ros2_ws/src/ex_assignment1
+	url = https://github.com/ShadyEgypt/ex_assignment1.git
