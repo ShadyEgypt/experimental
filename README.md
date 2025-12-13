@@ -20,16 +20,6 @@ visual servoing, and sequential navigation is available on YouTube.
 
 [![Assignment 1 Demo Video](https://img.youtube.com/vi/N0DpCXptaio/0.jpg)](https://www.youtube.com/watch?v=N0DpCXptaio)
 
-
-## Repository Structure
-
-experimental/
-├── README.md
-└── ros2_ws/
-├── src/ # ROS 2 packages
-└── docs/ # Sphinx documentation
-
-
 ## Documentation
 
 The complete technical documentation (architecture, nodes, topics, control
