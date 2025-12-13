@@ -1,6 +1,7 @@
 [submodule "ros2_ws/src/erl1_sensors"]
 	path = ros2_ws/src/erl1_sensors
 	url = https://github.com/ShadyEgypt/erl1_sensors.git
+	branch = main
 [submodule "ros2_ws/src/my_opencv"]
 	path = ros2_ws/src/my_opencv
 	url = https://github.com/CarmineD8/my_opencv.git
@@ -13,6 +14,7 @@
 [submodule "ros2_ws/src/ros_aruco_opencv"]
 	path = ros2_ws/src/ros_aruco_opencv
 	url = https://github.com/ShadyEgypt/ros_aruco_opencv.git
+	branch = main
 [submodule "ros2_ws/src/erl1"]
 	path = ros2_ws/src/erl1
 	url = https://github.com/ShadyEgypt/erl1.git
