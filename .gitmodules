@@ -1,6 +1,6 @@
 [submodule "ros2_ws/src/erl1_sensors"]
 	path = ros2_ws/src/erl1_sensors
-	url = https://github.com/CarmineD8/erl1_sensors.git
+	url = https://github.com/ShadyEgypt/erl1_sensors.git
 [submodule "ros2_ws/src/my_opencv"]
 	path = ros2_ws/src/my_opencv
 	url = https://github.com/CarmineD8/my_opencv.git
@@ -12,13 +12,16 @@
 	url = https://github.com/CarmineD8/plansys_interface.git
 [submodule "ros2_ws/src/ros_aruco_opencv"]
 	path = ros2_ws/src/ros_aruco_opencv
-	url = https://github.com/fictionlab/ros_aruco_opencv.git
-[submodule "ros2_ws/src/ros2-gazebo-aruco"]
-	path = ros2_ws/src/ros2-gazebo-aruco
-	url = https://github.com/SaxionMechatronics/ros2-gazebo-aruco.git
+	url = https://github.com/ShadyEgypt/ros_aruco_opencv.git
 [submodule "ros2_ws/src/erl1"]
 	path = ros2_ws/src/erl1
 	url = https://github.com/ShadyEgypt/erl1.git
 [submodule "ros2_ws/src/ex_assignment1"]
 	path = ros2_ws/src/ex_assignment1
 	url = https://github.com/ShadyEgypt/ex_assignment1.git
+[submodule "ros2_ws/src/ex_assignment1_interfaces"]
+	path = ros2_ws/src/ex_assignment1_interfaces
+	url = https://github.com/ShadyEgypt/ex_assignment1_interfaces.git
+[submodule "ros2_ws/src/aruco_marker_gazebo"]
+	path = ros2_ws/src/aruco_marker_gazebo
+	url = https://github.com/ShadyEgypt/aruco_marker_gazebo.git
