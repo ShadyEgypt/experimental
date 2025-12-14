@@ -42,6 +42,9 @@ git clone --recurse-submodules https://github.com/ShadyEgypt/experimental.git
 To build the ws
 ```
 cd ros2_ws
+sudo rm -rf build log install
+chmod +x fix_ros2_ws_paths.sh
+./fix_ros2_ws_paths.sh
 colcon build
 ```
 Before you run the solution, check the world file inside erl pkg and remove any uncessary models that may not be on your machine.
