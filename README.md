@@ -37,7 +37,18 @@ This repository uses Git submodules (e.g. the ROS 2 workspace inside
 To clone everything correctly, use:
 
 ```bash
-git clone --recurse-submodules https://github.com/ShadyEgypt/experimental.git
+git clone -b assignment2 https://github.com/ShadyEgypt/experimental.git
+cd ros2_ws/src
+git clone -b ex_assignment2 https://github.com/ShadyEgypt/ex_assignment2.git
+git clone -b ex_assignment2 https://github.com/ShadyEgypt/erl1_sensors.git
+git clone -b ex_assignment2 https://github.com/ShadyEgypt/aruco_marker_gazebo.git
+git clone -b assignment2 https://github.com/ShadyEgypt/ex_assignment1_interfaces.git
+git clone -b main https://github.com/ShadyEgypt/ex_assignment1.git
+git clone -b ex_assignment2 https://github.com/ShadyEgypt/erl1.git
+git clone -b shady-mods https://github.com/ShadyEgypt/ros_aruco_opencv.git
+git clone -b main https://github.com/ShadyEgypt/plansys_interface.git
+git clone -b main https://github.com/ShadyEgypt/ros2_navigation.git
+git clone -b main https://github.com/CarmineD8/my_opencv.git
 ```
 To build the ws
 ```
