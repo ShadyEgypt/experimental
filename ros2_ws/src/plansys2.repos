@@ -1,0 +1,13 @@
+repositories:
+  ros2_planning_system:
+    type: git
+    url: https://github.com/IntelligentRoboticsLabs/ros2_planning_system
+    version: jazzy-devel
+  navigation2:
+    type: git
+    url: https://github.com/fmrico/navigation2
+    version: nav2_msgs_only
+  cascade_lifecycle:
+    type: git
+    url: https://github.com/fmrico/cascade_lifecycle.git
+    version: jazzy-devel

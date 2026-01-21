@@ -1,29 +1,47 @@
 [submodule "ros2_ws/src/erl1_sensors"]
 	path = ros2_ws/src/erl1_sensors
 	url = https://github.com/ShadyEgypt/erl1_sensors.git
-	branch = main
+	branch = ex_assignment2
+
 [submodule "ros2_ws/src/my_opencv"]
 	path = ros2_ws/src/my_opencv
 	url = https://github.com/CarmineD8/my_opencv.git
+	branch = main
+
 [submodule "ros2_ws/src/ros2_navigation"]
 	path = ros2_ws/src/ros2_navigation
-	url = https://github.com/CarmineD8/ros2_navigation.git
+	url = https://github.com/ShadyEgypt/ros2_navigation.git
+	branch = main
+
 [submodule "ros2_ws/src/plansys_interface"]
 	path = ros2_ws/src/plansys_interface
-	url = https://github.com/CarmineD8/plansys_interface.git
+	url = https://github.com/ShadyEgypt/plansys_interface.git
+	branch = main
+
 [submodule "ros2_ws/src/ros_aruco_opencv"]
 	path = ros2_ws/src/ros_aruco_opencv
 	url = https://github.com/ShadyEgypt/ros_aruco_opencv.git
-	branch = main
+	branch = shady-mods
+	
 [submodule "ros2_ws/src/erl1"]
 	path = ros2_ws/src/erl1
 	url = https://github.com/ShadyEgypt/erl1.git
+	branch = ex_assignment2
+
 [submodule "ros2_ws/src/ex_assignment1"]
 	path = ros2_ws/src/ex_assignment1
 	url = https://github.com/ShadyEgypt/ex_assignment1.git
+	branch = main
+
 [submodule "ros2_ws/src/ex_assignment1_interfaces"]
 	path = ros2_ws/src/ex_assignment1_interfaces
 	url = https://github.com/ShadyEgypt/ex_assignment1_interfaces.git
+	branch = assignment2
+
 [submodule "ros2_ws/src/aruco_marker_gazebo"]
 	path = ros2_ws/src/aruco_marker_gazebo
 	url = https://github.com/ShadyEgypt/aruco_marker_gazebo.git
+	branch = ex_assignment2
+[submodule "ros2_ws/src/ex_assignment2"]
+	path = ros2_ws/src/ex_assignment2
+	url = https://github.com/ShadyEgypt/ex_assignment2.git
