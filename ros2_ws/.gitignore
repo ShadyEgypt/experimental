@@ -4,3 +4,6 @@ log/
 .venv/
 src/detections.yaml
 .vscode/
+html/
+xml/
+latex/
