@@ -24,6 +24,7 @@ extensions = [
     'sphinx.ext.napoleon',
     'sphinx.ext.viewcode',
     'sphinx_autodoc_typehints',
+    "breathe",
 ]
 
 autodoc_mock_imports = [
@@ -35,7 +36,11 @@ autodoc_mock_imports = [
 templates_path = ['_templates']
 exclude_patterns = []
 
+breathe_projects = {
+    "Experimental": "../../xml"
+}
 
+breathe_default_project = "Experimental"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

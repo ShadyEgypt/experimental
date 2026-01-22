@@ -19,11 +19,11 @@ A short video demonstrating the robot behavior is available on YouTube.
 ## Documentation
 
 The complete technical documentation (architecture, nodes, topics, control
-logic, and instructions) is generated using **Sphinx** and hosted as a static
+logic, and instructions) is generated using **Doxygen** and hosted as a static
 website.
 
-👉 **Sphinx HTML Documentation:**  
-http://experimental-robotics-assignment1-docs.s3-website.eu-north-1.amazonaws.com/
+👉 **Doxygen HTML Documentation:**  
+http://experimental-robotics-assignment2-docs.s3-website.eu-north-1.amazonaws.com/
 
 
 ## Clone the Repository (with Submodules)
