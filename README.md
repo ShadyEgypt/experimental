@@ -1,24 +1,20 @@
-# Experimental Robotics Laboratory – Assignment 1
+# Experimental Robotics Laboratory – Assignment 2
 
-This repository contains the solution for **Assignment 1** of the
+This repository contains the solution for **Assignment 2** of the
 **Experimental Robotics Laboratory** course.
 
 ## Assignment Description
 
-The goal of the assignment is to:
+The goal of the assignment is the same as assignment 1 in addition to the following:
 
-- Spawn a robot in simulation in an environment containing **5 ArUco markers**
-- Detect all marker IDs using the robot camera
-- Move the robot sequentially toward each marker in **ascending ID order**
-- Center the marker in the camera image using **visual servoing**
-- Publish a processed image with the detected marker highlighted
+- use plansys2 pkg to automate different actions and states of the project.
+- use nav2 pkg to help the robot localize itself and navigate given that the environment is bigger and the aruco markers are not visible to the robot where it is spawned.
 
 ## Demo Video
 
-A short video demonstrating the robot behavior, ArUco marker detection,
-visual servoing, and sequential navigation is available on YouTube.
+A short video demonstrating the robot behavior is available on YouTube.
 
-[![Assignment 1 Demo Video](https://img.youtube.com/vi/N0DpCXptaio/0.jpg)](https://www.youtube.com/watch?v=N0DpCXptaio)
+[![Assignment 1 Demo Video](https://img.youtube.com/vi/sXCSyjq2Zyc/0.jpg)](https://youtu.be/sXCSyjq2Zyc?si=wqBbBku3NDE3dnwQ)
 
 ## Documentation
 
@@ -38,7 +34,7 @@ To clone everything correctly, use:
 
 ```bash
 git clone -b assignment2 https://github.com/ShadyEgypt/experimental.git
-cd ros2_ws/src
+cd experimental/ros2_ws/src
 git clone -b main https://github.com/ShadyEgypt/ex_assignment2.git
 git clone -b ex_assignment2 https://github.com/ShadyEgypt/erl1_sensors.git
 git clone -b ex_assignment2 https://github.com/ShadyEgypt/aruco_marker_gazebo.git
@@ -63,13 +59,40 @@ Before you run the solution, check the world file inside erl pkg and remove any 
 Terminal 1: inside ros2_ws/
 ```
 source install/setup.bash
-ros2 launch ex_assignment1 main.launch.py
+ros2 launch ex_assignment2 main.launch.py
 ```
+
 Terminal 2: inside ros2_ws/
 ```
 source install/setup.bash
-ros2 run ex_assignment1 observer
+ros2 launch ros2_navigation localization.launch.py
 ```
 
+Terminal 3: inside ros2_ws/
+```
+source install/setup.bash
+ros2 launch ros2_navigation navigation.launch.py
+```
+
+Terminal 4: inside ros2_ws/
+```
+source install/setup.bash
+ros2 launch plansys_interface distributed_actions.launch.py
+```
+
+Terminal 5: inside ros2_ws/
+```
+source install/setup.bash
+ros2 run plansys2_terminal plansys2_terminal
+```
+Terminal 5: make sure the problem has been parsed
+```
+get problem goal
+```
+Terminal 5: get the plan and run it
+```
+get plan
+run
+```
 ## Author
 Shady Abdelmalek
